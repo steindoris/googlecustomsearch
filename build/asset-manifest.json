@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/googlecustomsearch/static/css/main.f1f91385.chunk.css",
+    "main.js": "/googlecustomsearch/static/js/main.ce5970d8.chunk.js",
+    "main.js.map": "/googlecustomsearch/static/js/main.ce5970d8.chunk.js.map",
+    "runtime-main.js": "/googlecustomsearch/static/js/runtime-main.e5481805.js",
+    "runtime-main.js.map": "/googlecustomsearch/static/js/runtime-main.e5481805.js.map",
+    "static/js/2.e1e97c6b.chunk.js": "/googlecustomsearch/static/js/2.e1e97c6b.chunk.js",
+    "static/js/2.e1e97c6b.chunk.js.map": "/googlecustomsearch/static/js/2.e1e97c6b.chunk.js.map",
+    "static/js/3.5c174ecc.chunk.js": "/googlecustomsearch/static/js/3.5c174ecc.chunk.js",
+    "static/js/3.5c174ecc.chunk.js.map": "/googlecustomsearch/static/js/3.5c174ecc.chunk.js.map",
+    "index.html": "/googlecustomsearch/index.html",
+    "static/css/main.f1f91385.chunk.css.map": "/googlecustomsearch/static/css/main.f1f91385.chunk.css.map",
+    "static/js/2.e1e97c6b.chunk.js.LICENSE.txt": "/googlecustomsearch/static/js/2.e1e97c6b.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/googlecustomsearch/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5481805.js",
+    "static/js/2.e1e97c6b.chunk.js",
+    "static/css/main.f1f91385.chunk.css",
+    "static/js/main.ce5970d8.chunk.js"
+  ]
+}
