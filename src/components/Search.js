@@ -4,18 +4,18 @@ import DisplayContent from './DisplayContent'
 const Search = () => {;
 
     const [title, setTitle] = useState('')
-    const [go, setTitleGo] = useState('')
+    const onKeyDown = (event) => {
+        if(event.key === "Enter") {
+            setTitle(event.target.value)
+        }
+    }
     return (
         <>
         <h1>Myndaleit</h1>
             <input type="text" style={{ width: 600, height: 30 }} name="searchWords" id="keywords" placeholder="leitarorð"  
-                onChange={event => setTitle(event.target.value)}
-                onKeyPress={(ev) => {if (ev.key === 'Enter') {
-                                        setTitleGo(ev.target.value)
-
-                                    }}}    
+                onKeyDown={event => onKeyDown(event)}    
             />
-        {go && (
+        {title && (
         <DisplayContent title={title}/>
         )
     }

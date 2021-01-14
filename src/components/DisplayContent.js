@@ -11,7 +11,7 @@ const DisplayContent = ({title}) => {
     const dispatch = useDispatch()
     useEffect(() => {
         dispatch(resultList(title))
-    }, [title])
+    }, [title, dispatch])
 
   const listResult = useSelector(state => state.listResult)
   const { loading, error, items } = listResult
@@ -23,8 +23,8 @@ const DisplayContent = ({title}) => {
             <Loader />
             ) : error ? <Message variant='danger'>{error}</Message> : 
             <Row>
-                {items.map((item) => (
-                    <Col key={item._id} sm={14} md={8} lg={6} xl={4} >
+                {items && items.map((item, index) => (
+                    <Col key={item._id} sm={14} md={8} lg={6} xl={4}>
                         <Result item={item} />
                     </Col>    
                 ))}
