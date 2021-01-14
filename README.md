@@ -10,17 +10,17 @@ Minnispunktar:
 
 ---
 
-ég hef verið að taka Udemy kúrsa þar sem notast er við react/redux og þannig vann ég verkefnið
+Ég hef verið að taka Udemy online kúrsa þar sem notast er við m.a. react/redux og þannig vann ég verkefnið
 
-Ég byrjaði á að búa til react app og setti svo upp Redux boilerplate, bjó til constanta osfv, á svipaðan hátt og ég hef gert undanfarið í kúrsunum.
+Ég byrjaði á að búa til react app með create-react-app, setti svo upp Redux boilerplate og bjó til constant-a osfv, allt á svipaðan hátt og ég hef gert undanfarið í kúrsunum.
 
-Þaðan bjó ég til DisplayContent component sem setur action-ina af stað með dispatch-ar og fyllir í leitarniðurstaða-fylkið í reducer-num, og þá er hægt að sjá fullt fylki inn í redux dev-tools.
+Þaðan bjó ég til DisplayContent-component sem setur leitar-action af stað með hjálp dispatch. Leitar-action sendir svo leitarniðurstöðurnar til reducer sem fyllir leitarniðurstöðu-fylki af gögnum úr leitinni, og þá má sjá leitarniðurstöðu-fylki fullt inni í redux dev-tools.
 
 Þegar þetta var komið var hægt að sækja fullt array-ið gegnum state-ið með useSelector inni í DisplayContent component-num, sem var mjög gaman.
 
-Síðan gerði ég annan component sem byggður er að miklu leiti í kringum react-bootstrap Card, en þessi component tekur inn hverja leitarniðurstöðu fyrir sig og birtir. Það var svo í Display component-num sem virknin sem dreifir leitarniðurstöðunum lenti.
+Síðan gerði ég annan Result-component sem byggður er að miklu leiti í kringum react-bootstrap Card. Display component sendir hverja leitarniðurstöðu inn í þennan component og raðar niðurstöðunum svo á skjáinn.
 
-Næst gerði ég nýjan component sem tekur inn leitarorð gegnum input og sendir yfir í Display component-inn ef smellt er á input-ið.
+Næst gerði ég nýjan Search-component sem tekur inn leitarorð gegnum input og sendir yfir í Display component ef smellt er á input-ið. ATH það þarf að smella á leitarkassann til að senda leit af stað :)
 
 Google custom search:
 
